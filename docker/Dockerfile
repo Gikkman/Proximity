@@ -10,5 +10,6 @@ WORKDIR /app
 
 COPY --from=compiler /home/gradle/build/**/*.jar proximity.jar
 COPY docker/entrypoint.sh entrypoint.sh
-
+RUN mkdir template_overrides
+ 
 ENTRYPOINT ["./entrypoint.sh"]

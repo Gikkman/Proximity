@@ -10,7 +10,7 @@ the `--build` flag to the command, like this:
 docker-compose -f docker/docker-compose.yml up --build
 ```
 
-# Tweeking docker setup
+# Tweeking docker setup 
 This section aims to explain the different docker settings you can tinker with, as well as motivating some of
 the design choices that's been made with regards to the docker files.
 
