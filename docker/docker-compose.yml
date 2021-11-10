@@ -13,4 +13,4 @@ services:
       - ../run/templates:/app/templates   # Volume 2 - Mounts templates from run/templates (i.e. normal and classic)
       - ../images:/app/images             # Volume 3 - Mounts the output folder
       - ../art:/app/art                   # Volume 4 - Mounts the art folder
-    command: --cards=cardslist --template=normal --use_official_art=true
+    command: --cards=cardslist --template=normal --use_official_art=true --copyright=false --reminder_text=true --show_set_symbol=false
