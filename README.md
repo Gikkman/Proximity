@@ -2,7 +2,7 @@
 A tool to assemble Magic: The Gathering proxies from a set of template images. To get started, check out [the wiki](https://github.com/Haven-King/Proximity/wiki/How-to-Use).
 
 ## Building
-Proximity can be built using the command `gradlew shadowJar`, or by running the `shadowJar` task in your IDE
+Proximity can be built using the command `gradlew shadowJar`, or by running the `shadowJar` task in your IDE.
 
 # Docker support
 To run this tool in docker, clone the repository, then run the below command from the root of the project.
